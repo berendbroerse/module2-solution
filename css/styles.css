@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   display: block;
+  font-family: Helvetica;
 }
 
 /*ul { padding: 0 }*/
@@ -9,6 +10,7 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-size: 50px;
 }
 
 p {
@@ -29,7 +31,7 @@ p {
 p.menutitle {
   /*box-sizing:content-box;*/
   width: 100px;
-  height: 20px;
+  height: 25px;
   position: relative;
   float: right;
   margin-top: 0px;
@@ -37,41 +39,40 @@ p.menutitle {
   z-index:10;
   border: 1px solid black;
   text-align: center;
+  font-size: 18px;
 }
 
 p.menutitle.chicken{
-  background-color: #AA3939;
+  background-color: #96291A;
 }
 
 p.menutitle.beef {
-  background-color: #2D882D;
+  background-color: #471664;
 }
 
 p.menutitle.sushi {
-  background-color: #913059;
+  background-color: #96741A;
 }
 
 p.description {
   margin-top: 30px;
-  vertical-align: 10px;
   font-size: 14px;
 }
 
 div.chicken {
-  background-color: #AA6C39;
+  background-color: #936E69;
 }
 div.beef {
-  background-color: #226666;
+  background-color: #594862;
 }
 div.sushi {
-  background-color: #622870;
+  background-color: #938869;
 }
 
 .section {
-  /*background-color: green;*/
   border: 3px solid black;
   position: relative;
-  height: 170px;
+  height: 200px;
 }
 
 /* Simple Responsive Framework. */
@@ -87,7 +88,8 @@ div.sushi {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     /*border: 1px solid green;*/
-    padding: 15px;
+    /*padding: 10px 20px 10px 10px;*/
+    padding: 0px 15px 15px 0px;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -132,7 +134,7 @@ div.sushi {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     /*border: 1px solid green;*/
-    padding: 15px;
+    padding: 0px 15px 15px 0px;
 
   }
   .col-md-1 {
@@ -178,7 +180,7 @@ div.sushi {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
     /*border: 1px solid green;*/
-    padding: 15px;
+    padding: 0px 15px 15px 0px;
 
   }
   .col-sm-1 {
