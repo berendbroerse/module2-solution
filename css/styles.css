@@ -1,0 +1,11 @@
+
+h1 {
+	margin-bottom: 15px
+	font-size: 300%;
+	color: blue;
+}
+
+div {
+	border: 2px black;
+	background-color: blue
+}
