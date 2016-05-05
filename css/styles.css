@@ -43,15 +43,15 @@ p.menutitle {
 }
 
 p.menutitle.chicken{
-  background-color: #96291A;
+  background-color: #2E4057;
 }
 
 p.menutitle.beef {
-  background-color: #471664;
+  background-color: #75717B;
 }
 
 p.menutitle.sushi {
-  background-color: #96741A;
+  background-color: #8F250C;
 }
 
 p.description {
@@ -60,13 +60,13 @@ p.description {
 }
 
 div.chicken {
-  background-color: #936E69;
+  background-color: #68B0AB;
 }
 div.beef {
-  background-color: #594862;
+  background-color: #A2967B;
 }
 div.sushi {
-  background-color: #938869;
+  background-color: #EA526F;
 }
 
 .section {
